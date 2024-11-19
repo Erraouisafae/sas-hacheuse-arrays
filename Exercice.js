@@ -15,7 +15,23 @@ const  elements =["apple", "banana", "cherry"];
   console.log(nbrs);
    
   //ex4
-  const fruits=["mango", ""]
+  const fruits=["mango", "peach", "pear"];
+ // console.log(fruits);
+  //ajouter
+
+  fruits[3]="citron";
+  console.log(fruits);
+
+  //ex5
+  let elem =["dog","peach","pear"];
+  //console.log(elem);
+   //supprime
+   delete elem[2];
+   console.log(elem);
+   
+   //ex6
+   
+
 
 
  
