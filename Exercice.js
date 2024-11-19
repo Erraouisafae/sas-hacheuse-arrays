@@ -30,7 +30,49 @@ const  elements =["apple", "banana", "cherry"];
    console.log(elem);
    
    //ex6
-   
+   const information ={
+    name: "safae", age: 21 
+
+   };
+   console.log(information);
+
+   //ex7
+   let person = {
+    nom: "john", age: 25
+   };
+   console.log(person);
+
+   //ex8
+   const book ={
+    title:"JavaScript 101", author:"John Doe"
+   };
+  // console.log(book);
+   //modifie
+   book.author ="safia";
+   console.log(book);
+    
+   //ex9
+   let car = { make:"toyota",model:"Corolla"};
+
+//console.log(car);
+//ajouter
+car.year= '25' ;
+console.log(car);
+
+//ex10
+
+let persone = {
+    nom:"safoua" , age:"24"
+};
+
+   // Vérification si la propriété 'age' existe dans l'objet person
+const propriété= 'age' in persone;
+
+// Affichage du résultat
+console.log(propriété); // Affiche true
+
+
+
 
 
 
