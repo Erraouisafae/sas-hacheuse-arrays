@@ -92,6 +92,33 @@ function  nbrpaire( n ) {
 let  numbrepaire = nbr . filter( nbrpaire );
  console.log( " numbre paire "  + numbrepaire);
 
+ //ex 12
+ let a= [1, 2, 3 ] ;//tableau 1
+ let b = [4, 5, 6 ]; //tableau 2
+
+// console.log(a,b);
+
+ // ajouter
+ a [3]= 4;
+ a [4] = 5 ;
+ a [5] = 6 ;
+ console.log(a);
+ 
+ //ex14
+ const tabl = ["apple" , "banana" , "cherry" , "date" ];
+
+ console.log(tabl);
+
+ //supp
+ delete tabl [1];
+ console.log(tabl);
+
+ //ex15
+ 
+
+
+
+
  
 
 
