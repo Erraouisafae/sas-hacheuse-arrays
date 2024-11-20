@@ -69,7 +69,40 @@ let persone = {
 const propriété= 'age' in persone;
 
 // Affichage du résultat
-console.log(propriété); // Affiche true
+console.log(propriété); 
+
+
+////les exercices moyenne
+
+//ex11
+const élément= [1, 2, 3, 4, 5 ] ;
+for (let i=0 ; i< élément.length ; i++){
+   
+     console.log(élément[i]); 
+}
+
+//ex12
+
+let nbr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+
+function  nbrpaire( n ) {
+   return n % 2 === 0  ;
+
+}
+let  numbrepaire = nbr . filter( nbrpaire );
+ console.log( " numbre paire "  + numbrepaire);
+
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
