@@ -114,7 +114,65 @@ let  numbrepaire = nbr . filter( nbrpaire );
  console.log(tabl);
 
  //ex15
+
+ const numbers = [5, 1, 8, 4, 7 ];
+
+ function croissante (a,b){
+
+   return a-b ;
+ }
+ numbers.sort(croissante);
+ console.log(numbers);
+
+ //ex16
+
+ const nomb = [1, 2, 3, 4 ];
+ function multp (m) {
+   return m*2 ;
+
+ } 
+ let nbresmultp = nomb.map(multp);
+ console.log(nbresmultp) ;
+
+ //ex17
+
+ let care = {make:1 , 
+    model:2 , 
+     year:3 , 
+    color:4 };
+
+ let nbrdeprop = Object.keys(care).length;
+  
+ console.log( nbrdeprop);
+
+ //ex18
+
+ const personn={
+   name :" maroua" ,
+    age: 22 ,
+    occupation : "etudier"
+ }; 
+ for(const clé in personn){
+
+  console.log(clé +" : " + personn[clé]);
+  
  
+}
+
+//ex
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 
 
 
